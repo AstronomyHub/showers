@@ -1,6 +1,6 @@
 module.exports = {
   'Perseids': {
-    name: '英仙座流星雨',
+    name: '英仙座',
     peak: '8月中旬',
     date: '8/12',
     map: 'perseids_north.jpg',
@@ -25,7 +25,7 @@ module.exports = {
     }
   },
   'Leonids': {
-    name: '狮子座流星雨',
+    name: '狮子座',
     peak: '11月中旬',
     date: '11/18',
     map: 'leonids_north.jpg',
@@ -47,7 +47,7 @@ module.exports = {
     }
   },
   'Alpha Capricornids': {
-    name: '摩羯座α流星雨',
+    name: '摩羯座α',
     peak: '7月下旬',
     date: '7/31',
     iau_number: 1,
@@ -68,7 +68,7 @@ module.exports = {
     }
   },
   'Lyrids': {
-    name: '天琴座流星雨',
+    name: '天琴座',
     peak: '4月',
     date: '4/22',
     map: 'lyrids_north.jpg',
@@ -97,7 +97,7 @@ module.exports = {
     ]
   },
   'Orionids': {
-    name: '猎户座流星雨',
+    name: '猎户座',
     peak: '10月下旬',
     date: '10/21',
     map: 'orionids_north.jpg',
@@ -119,7 +119,7 @@ module.exports = {
     }
   },
   'Eta Aquariids': {
-    name: '宝瓶座η流星雨',
+    name: '宝瓶座η',
     peak: '5月上旬',
     date: '5/5',
     map: 'eta_aquarids_north.jpg',
@@ -141,7 +141,7 @@ module.exports = {
     }
   },
   'Quadrantids': {
-    name: '象限仪座流星雨',
+    name: '象限仪座',
     peak: '1月上旬',
     date: '1/3',
     iau_number: 10,
@@ -165,7 +165,7 @@ module.exports = {
     }
   },
   'Southern Delta Aquariids': {
-    name: '宝瓶座δ南流星雨',
+    name: '宝瓶座δ南',
     peak: '7月下旬',
     date: '7/28',
     map: 'delta_aquarids_south.jpg',
@@ -187,7 +187,7 @@ module.exports = {
     }
   },
   'Southern Taurids': {
-    name: '金牛座南流星雨',
+    name: '金牛座南',
     peak: '10月',
     date: '10/10',
     iau_number: 2,
@@ -208,7 +208,7 @@ module.exports = {
     }
   },
   'Northern Taurids': {
-    name: '金牛座北流星雨',
+    name: '金牛座北',
     peak: '11月',
     date: '11/12',
     iau_number: 17,
@@ -230,7 +230,7 @@ module.exports = {
   },
   'Geminids': {
     // TODO: fewer particles
-    name: '双子座流星雨',
+    name: '双子座',
     peak: '12月中旬',
     date: '12/14',
     map: 'geminids_north.jpg',
@@ -256,7 +256,7 @@ module.exports = {
     }
   },
   'Ursids': {
-    name: '小熊座流星雨',
+    name: '小熊座',
     peak: '12月中旬',
     date: '12/21',
     map: 'ursids_north.jpg',
@@ -287,7 +287,7 @@ module.exports = {
     show_particle_orbits: true,
     // iau_number: 338,  // Not full
 
-    name: '天鹅座κ流星雨',
+    name: '天鹅座κ',
     peak: '8月中旬',
     date: '8/21',
     orbit_data_path: '/js/data/kcg.json',
@@ -298,7 +298,7 @@ module.exports = {
     show_particle_orbits: true,
     // iau_number: 338,  // Not full
 
-    name: '波江座ο流星雨',
+    name: '波江座ο',
     peak: '11月中旬',
     date: '11/22',
     orbit_data_path: '/js/data/oer.json',

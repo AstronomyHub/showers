@@ -1,13 +1,13 @@
 module.exports = {
   'Perseids': {
-    name: 'Perseid',
-    peak: 'mid-August',
+    name: '英仙座流星雨',
+    peak: '8月中旬',
     date: '8/12',
     map: 'perseids_north.jpg',
     iau_number: 7,
     // TODO comet struct
-    source_type: 'comet',
-    source_name: 'Swift-Tuttle',
+    source_type: '彗星',
+    source_name: '109P/斯威夫特-塔特尔',
     spaceref_url: 'https://www.spacereference.org/comet/109p-swift-tuttle',
     source_orbit: {
       full_name: 'Comet 109P/Swift-Tuttle',
@@ -25,13 +25,13 @@ module.exports = {
     }
   },
   'Leonids': {
-    name: 'Leonids',
-    peak: 'mid-November',
+    name: '狮子座流星雨',
+    peak: '11月中旬',
     date: '11/18',
     map: 'leonids_north.jpg',
     iau_number: 13,
-    source_type: 'comet',
-    source_name: 'Tempel-Tuttle',
+    source_type: '彗星',
+    source_name: '55P/坦普尔-塔特尔',
     spaceref_url: 'https://www.spacereference.org/comet/55p-tempel-tuttle',
     source_orbit: {
       full_name: 'Comet 55P/Tempel-Tuttle',
@@ -47,12 +47,12 @@ module.exports = {
     }
   },
   'Alpha Capricornids': {
-    name: 'Alpha Capricornids',
-    peak: 'late July',
+    name: '摩羯座α流星雨',
+    peak: '7月下旬',
     date: '7/31',
     iau_number: 1,
-    source_type: 'comet',
-    source_name: '169P/NEAT',
+    source_type: '彗星',
+    source_name: '169P/尼特',
     spaceref_url: 'https://www.spacereference.org/comet/169p-neat',
     source_orbit: {
       full_name: 'Comet 169P/NEAT',
@@ -68,14 +68,14 @@ module.exports = {
     }
   },
   'Lyrids': {
-    name: 'Lyrids',
-    peak: 'April',
+    name: '天琴座流星雨',
+    peak: '4月',
     date: '4/22',
     map: 'lyrids_north.jpg',
     iau_number: 6,
 
-    source_type: 'comet',
-    source_name: 'C/1861 G1 Thatcher',
+    source_type: '彗星',
+    source_name: 'C/1861 G1 佘契尔',
     spaceref_url: 'https://www.spacereference.org/comet/c-1861-g1-thatcher',
     source_orbit: {
       full_name: 'Comet C/1861 G1 Thatcher',
@@ -97,13 +97,13 @@ module.exports = {
     ]
   },
   'Orionids': {
-    name: 'Orionids',
-    peak: 'late October',
+    name: '猎户座流星雨',
+    peak: '10月下旬',
     date: '10/21',
     map: 'orionids_north.jpg',
     iau_number: 8,
-    source_type: 'comet',
-    source_name: 'Halley',
+    source_type: '彗星',
+    source_name: '1P/哈雷',
     spaceref_url: 'https://www.spacereference.org/comet/1p-halley',
     source_orbit: {
       full_name: 'Comet 1P/Halley',
@@ -119,13 +119,13 @@ module.exports = {
     }
   },
   'Eta Aquariids': {
-    name: 'Eta Aquariids',
-    peak: 'early May',
+    name: '宝瓶座η流星雨',
+    peak: '5月上旬',
     date: '5/5',
     map: 'eta_aquarids_north.jpg',
     iau_number: 31,
-    source_type: 'comet',
-    source_name: 'Halley',
+    source_type: '彗星',
+    source_name: '1P/哈雷',
     spaceref_url: 'https://www.spacereference.org/comet/1p-halley',
     source_orbit: {
       full_name: 'Comet 1P/Halley',
@@ -141,13 +141,13 @@ module.exports = {
     }
   },
   'Quadrantids': {
-    name: 'Quadrantids',
-    peak: 'early January',
+    name: '象限仪座流星雨',
+    peak: '1月上旬',
     date: '1/3',
     iau_number: 10,
     map: 'quadrantids_north.jpg',
     // TODO comet struct
-    source_type: 'asteroid',
+    source_type: '小行星',
     source_name: '2003 EH1',
     spaceref_url: 'https://www.spacereference.org/asteroid/196256-2003-eh1',
     source_orbit: {
@@ -165,12 +165,12 @@ module.exports = {
     }
   },
   'Southern Delta Aquariids': {
-    name: 'Southern Delta Aquariids',
-    peak: 'late July',
+    name: '宝瓶座δ南流星雨',
+    peak: '7月下旬',
     date: '7/28',
     map: 'delta_aquarids_south.jpg',
     iau_number: 5,
-    source_type: 'comet',
+    source_type: '彗星',
     source_name: 'P/2008 Y12',
     spaceref_url: 'https://www.spacereference.org/comet/p-2008-y12-soho',
     source_orbit: {
@@ -187,12 +187,12 @@ module.exports = {
     }
   },
   'Southern Taurids': {
-    name: 'Southern Taurids',
-    peak: 'October',
+    name: '金牛座南流星雨',
+    peak: '10月',
     date: '10/10',
     iau_number: 2,
-    source_type: 'comet',
-    source_name: 'Encke',
+    source_type: '彗星',
+    source_name: '2P/恩克',
     spaceref_url: 'https://www.spacereference.org/comet/2p-encke',
     source_orbit: {
       full_name: 'Comet 2P/Encke',
@@ -208,12 +208,12 @@ module.exports = {
     }
   },
   'Northern Taurids': {
-    name: 'Northern Taurids',
-    peak: 'November',
+    name: '金牛座北流星雨',
+    peak: '11月',
     date: '11/12',
     iau_number: 17,
-    source_type: 'comet',
-    source_name: 'Encke',
+    source_type: '彗星',
+    source_name: '2P/恩克',
     spaceref_url: 'https://www.spacereference.org/comet/2p-encke',
     source_orbit: {
       full_name: 'Comet 2P/Encke',
@@ -230,13 +230,13 @@ module.exports = {
   },
   'Geminids': {
     // TODO: fewer particles
-    name: 'Geminids',
-    peak: 'mid-December',
+    name: '双子座流星雨',
+    peak: '12月中旬',
     date: '12/14',
     map: 'geminids_north.jpg',
     iau_number: 4,
-    source_type: 'asteroid',
-    source_name: 'Phaethon',
+    source_type: '小行星',
+    source_name: '3200 Phaethon',
     spaceref_url: 'https://www.spacereference.org/asteroid/3200-phaethon-1983-tb',
     source_orbit: {
       full_name: 'Asteroid 3200 Phaethon',
@@ -256,13 +256,13 @@ module.exports = {
     }
   },
   'Ursids': {
-    name: 'Ursids',
-    peak: 'mid-December',
+    name: '小熊座流星雨',
+    peak: '12月中旬',
     date: '12/21',
     map: 'ursids_north.jpg',
     iau_number: 15,
-    source_type: 'comet',
-    source_name: 'Tuttle',
+    source_type: '彗星',
+    source_name: '8P/塔特尔',
     spaceref_url: 'https://www.spacereference.org/comet/8p-tuttle',
     source_orbit: {
       full_name: 'Comet 8P/Tuttle',
@@ -287,8 +287,8 @@ module.exports = {
     show_particle_orbits: true,
     // iau_number: 338,  // Not full
 
-    name: 'Kappa Cygnids',
-    peak: 'mid August',
+    name: '天鹅座κ流星雨',
+    peak: '8月中旬',
     date: '8/21',
     orbit_data_path: '/js/data/kcg.json',
   },
@@ -298,8 +298,8 @@ module.exports = {
     show_particle_orbits: true,
     // iau_number: 338,  // Not full
 
-    name: 'Omicron Eridanids',
-    peak: 'mid November',
+    name: '波江座ο流星雨',
+    peak: '11月中旬',
     date: '11/22',
     orbit_data_path: '/js/data/oer.json',
   },

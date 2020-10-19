@@ -1,7 +1,7 @@
 ﻿<!doctype html>
 <html>
 <head>
-  <title>Meteor showers as seen from space</title>
+  <title>从太空看流星雨</title>
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
@@ -39,22 +39,22 @@
 <body>
   <div id="summary" class="maximized">
     <span id="normal-summary">
-      <h2><span id="meteor-shower-name">{{showerCloud.name}}</span> meteor shower</h2>
+      <h2><span id="meteor-shower-name">{{showerCloud.name}}</span> 流星雨</h2>
       <span class="description">
-        This shower peaks in <span id="meteor-shower-peak">{{showerCloud.peak}}</span>, when Earth intersects the dust cloud left by <span id="meteor-shower-source-type">{{showerCloud.source_type}}</span> <a target="_blank" href="{{showerCloud.spaceref_url}}" id="meteor-shower-object-name">{{showerCloud.source_name}}</a>.  <a class="iframe-hide-container" href="#faq-modal" rel="modal:open">Learn more.</a>
+        流星雨将在 <span id="meteor-shower-peak">{{showerCloud.peak}}</span> 达到峰值，当地球与<span id="meteor-shower-source-type">{{showerCloud.source_type}}</span> <a target="_blank" href="{{showerCloud.spaceref_url}}" id="meteor-shower-object-name">{{showerCloud.source_name}}</a>留下的尘埃相交。 <a class="iframe-hide-container" href="#faq-modal" rel="modal:open">了解更多>></a>
         <span class="iframe-show-container" style="display:none">
-          <a target="_blank" href="https://www.meteorshowers.org">View more showers.</a>
+          <a target="_blank" href="https://www.meteorshowers.org">查看更多流星雨</a>
         </span>
       </span>
     </span>
     <span id="view-all-summary" style="display:none">
-      <h2>All major meteor showers</h2>
-      These showers occur at various points of the year and originate from multiple comets and asteroids.
+      <h2>所有主要的流星雨</h2>
+      这些流星雨发生在一年中的不同时间点，起源于多颗彗星和小行星。
     </span>
     <span id="iau-summary" style="display:none">
       <h2>IAU Shower #<span id="iau-shower-number"></span><span id="iau-shower-suffix"></span></h2>
       <!--Data from the 2016 <a target="_blank" href="http://cams.seti.org/">NASA CAMS</a> dataset.-->
-      <a target="_blank" href="https://www.meteorshowers.org">View more showers.</a>
+      <a target="_blank" href="https://www.meteorshowers.org">查看更多流星雨</a>
     </span>
 
     <span class="share-buttons">
@@ -65,13 +65,13 @@
     </span>
     <div class="shower-details-container iframe-hide-container">
       <p>
-        View <select id="shower-select"></select> <span class="mobile-hide-container">on <span id="current-date" title="Adjust this date at the top right"></span></span>
+        查看 <select id="shower-select"></select> <span class="mobile-hide-container">在 <span id="current-date" title="右上角调整日期"></span></span>
       </p>
       <p>
-        <span id="restore-view" class="button">Solar System</span>
-        <span id="lock-earth" class="button">Follow Earth</span>
-        <span id="lock-earth-view" class="button">Watch from Earth</span>
-        <span id="btn-iau-input" class="button mobile-hide-container">Input IAU Number</span>
+        <span id="restore-view" class="button">太阳系</span>
+        <span id="lock-earth" class="button">跟随地球</span>
+        <span id="lock-earth-view" class="button">从地球观察</span>
+        <span id="btn-iau-input" class="button mobile-hide-container">输入 IAU 编号</span>
       </p>
     </div>
     <div class="iframe-hide-container">
@@ -95,44 +95,36 @@
 
   <div id="faq-modal" class="modal faq-modal">
     <div class="faq-modal-body">
-      <h2>What am I looking at?</h2>
+      <h2>我在看的是什么？</h2>
       <p>
-        Meteor showers on Earth are caused by streams of meteoroids hitting our atmosphere. These meteoroids are sand- and pebble-sized bits of rock that were once released from their parent comet. Some comets are no longer active and are now called asteroids.
+        地球上的流星雨是由撞击大气层的流星体流引起的。这些流星体是曾经从它们的母彗星释放出来的沙子和卵石大小的岩石碎片。一些彗星不再活跃，现在被称为小行星。
       </p>
       <p>
-      This visualization shows these meteoroid streams orbiting the Sun, some stretching to the outer regions of the solar system. Select the meteor shower in the menu to see the corresponding meteoroid stream in space. Their meteoroid orbits are based on those measured by NASA's <a href="http://cams.seti.org">CAMS video camera surveillance network</a>, and were calculated by meteor astronomer <a href="https://en.wikipedia.org/wiki/Peter_Jenniskens">Peter Jenniskens</a> of the SETI Institute and NASA Ames Research Center.
+      	这个可视化图像显示了这些围绕太阳旋转的流星体流，其中一些流星流延伸到太阳系的外围区域。在菜单中选择流星雨，可以看到空间中相应的流星流。他们的流星体轨道是基于美国宇航局的测量结果，由流星天文学家 Peter Jenniskens 与阿姆斯研究中心计算。
       </p>
       <p>
-        This visualization is developed and hosted by <a href="http://www.ianww.com">Ian Webster</a>.
+        可视化由 Ian Webster 开发，天文通汉化。
       </p>
-      <h2>How can I see a meteor shower?</h2>
+      <h2>我怎么能看到流星雨？</h2>
       <p>
-        Meteor showers are best seen on certain dark and clear nights. To see how many meteors per hour are visible from your location, go to <a href="http://leonid.arc.nasa.gov/estimator.html">this website</a> and select the date, the shower, and your location.
+       流星雨最好在黑暗和晴朗的夜晚观看。查看光污染可以在 <a href="https://lightpollutionmap.knockdream.com/">这个网站</a>查询.
       </p>
-      <h2>Where should I go next?</h2>
+      <h2>我能使用这个网站吗?</h2>
       <p>
-        If you like these sorts of interactive visualizations, take a look at <a href="http://www.ianww.com">Ian Webster</a>'s other tools, including <a href="http://www.ianww.com/pluto">Pluto</a>, <a href="http://dinosaurpictures.org/ancient-earth/#600">ancient Earth</a>, or <a href="http://www.asterank.com">asteroids</a>!
-      </p>
-      <h2>Can I use this on my site?</h2>
-      <p>
-        Sure!  Use the following code to load the interactive visualization in an iframe.  You must know the IAU number of your meteor shower, which you can look up <a href="https://www.ta3.sk/IAUC22DB/MDC2007/Roje/roje_lista.php?corobic_roje=1&sort_roje=0">here</a>.
+        当然！使用以下代码将交互可视化加到你的网站，你需要知道流星雨的IAU编号，可以在<a href="https://www.ta3.sk/IAUC22DB/MDC2007/Roje/roje_lista.php?corobic_roje=1&sort_roje=0">这里</a>查询.
         <br/><br/>
         <code>&lt;iframe src=&quot;https://www.meteorshowers.org/view/iau-7&quot; width=&quot;500&quot; height=&quot;500&quot; frameBorder=&quot;0&quot;&gt;&lt;/iframe&gt;</code>
         <br/><br/>
-        Please remember to attribute this site!
-      </p>
-      <h2>How can I build something similar?</h2>
-      <p>
-        The visualization engine used for MeteorShowers.org has been released as <a href="https://typpo.github.io/spacekit/">SpaceKit.js</a>.  Give it a try!
+        请记住我们的网站!
       </p>
     </div>
   </div>
 
   <div id="instructions" class="iframe-hide-container mobile-hide-container">
-    Click and drag to turn &middot; Right click to pan &middot; Scroll to zoom
+    单击拖动转变视角 &middot; 右击平移 &middot; 滚轮缩放
   </div>
   <div id="copyright" class="iframe-hide-container mobile-hide-container">
-    Meteor data from <a target="_blank" href="https://en.wikipedia.org/wiki/Peter_Jenniskens">Peter Jenniskens</a>, visualization developed by <a target="_blank" href="http://www.ianww.com">Ian Webster</a>
+    流星数据来自Peter Jenniskens，可视化由 Ian Webster 开发，汉化由天文通完成。</a>
   </div>
 
 
@@ -143,7 +135,7 @@
 -->
 
   <div id="loading-container" style="display:none">
-    <h2>Loading shower data...</h2>
+    <h2>正在加载流星雨数据...</h2>
     <p id="loading-message"></p>
   </div>
 
@@ -153,9 +145,6 @@
   </div>
 
   <script type="x-shader/x-vertex" id="orbit-vertex-shader">
-    // MIT License.
-    // Copyright Ian Webster 2012 (asterank.com)
-    // https://github.com/typpo/asterank/blob/master/LICENSE
     #define pi 3.141592653589793238462643383279
 
     attribute vec3 value_color;
@@ -344,7 +333,7 @@ mixpanel.init("c5d915a004df96a33c912640ed0e9faf");</script><!-- end Mixpanel -->
   ga('send', 'pageview');
 </script>
 <noscript>
-	<p>You need Javascript enabled in order to use this web application.</p>
+	<p>要使用这个 web 应用程序，你需要启用 Javascript。</p>
 </noscript>
 </body>
 </html>

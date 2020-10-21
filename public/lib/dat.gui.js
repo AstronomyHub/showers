@@ -1964,7 +1964,7 @@ dat.GUI = dat.gui.GUI = (function (css, saveDialogueContents, styleSheet, contro
   GUI.CLASS_DRAG = 'drag';
 
   GUI.DEFAULT_WIDTH = 245;
-  GUI.TEXT_CLOSED = 'Close Controls';
+  GUI.TEXT_CLOSED = '关闭';
   GUI.TEXT_OPEN = 'Open Controls';
 
   dom.bind(window, 'keydown', function(e) {

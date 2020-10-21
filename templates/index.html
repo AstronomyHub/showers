@@ -57,12 +57,12 @@
       <a target="_blank" href="https://ms.darkmap.cn">查看更多流星雨</a>
     </span>
 
-    <span class="share-buttons">
-      <span><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.meteorshowers.org" title="Share on Facebook" target="_blank" oncspanck="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img src="/img/flat_web_icon_set/black/Facebook.png"></a></span>
-      <span><a href="https://twitter.com/intent/tweet?source=https://www.meteorshowers.org&text=https://www.meteorshowers.org&via=iwebst" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?via=iwebst&text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="/img/flat_web_icon_set/black/Twitter.png"></a></span>
-      <span><a href="https://plus.google.com/share?url=https://www.meteorshowers.org" title="Share on Google+" target="_blank"><img src="/img/flat_web_icon_set/black/Google+.png"></a></span>
-      <span><a href="mailto:?subject=&body=https://www.meteorshowers.org" target="_blank" title="Email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><img src="/img/flat_web_icon_set/black/Email.png"></a></span>
-    </span>
+    <!--<span class="share-buttons">-->
+      <!--<span><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.meteorshowers.org" title="Share on Facebook" target="_blank" oncspanck="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img src="/img/flat_web_icon_set/black/Facebook.png"></a></span>-->
+      <!--<span><a href="https://twitter.com/intent/tweet?source=https://www.meteorshowers.org&text=https://www.meteorshowers.org&via=iwebst" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?via=iwebst&text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="/img/flat_web_icon_set/black/Twitter.png"></a></span>-->
+      <!--<span><a href="https://plus.google.com/share?url=https://www.meteorshowers.org" title="Share on Google+" target="_blank"><img src="/img/flat_web_icon_set/black/Google+.png"></a></span>-->
+      <!--<span><a href="mailto:?subject=&body=https://www.meteorshowers.org" target="_blank" title="Email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><img src="/img/flat_web_icon_set/black/Email.png"></a></span>-->
+    <!--</span>-->
     <div class="shower-details-container iframe-hide-container">
       <p>
         查看 <select id="shower-select"></select> <span class="mobile-hide-container">在 <span id="current-date" title="右上角调整日期"></span></span>
@@ -83,13 +83,14 @@
   <!-- Three.JS Container -->
   <div id="container"></div>
 
-  <div id="sky-map" class="iframe-hide-container" style="display: none">
-    <img src="img/skymaps/perseids_north.jpg">
+  <div id="sky-map" class="iframe-hide-container" style="display: none;">
+    <img style="width: 100%" src="img/skymaps/perseids_north.jpg">
   </div>
 
   <div id="global-tooltip"></div>
 
-  <div id="skymap-modal" class="modal">
+  <div id="skymap-modal" class="modal" style="z-index: 999999;padding: 0;position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.5); display: none; justify-content: center; align-items: center;">
+    <img style="width: 100%" src="">
   </div>
 
   <div id="faq-modal" class="modal faq-modal">
@@ -122,8 +123,8 @@
   <div id="instructions" class="iframe-hide-container mobile-hide-container">
     单击拖动转变视角 &middot; 右击平移 &middot; 滚轮缩放
   </div>
-  <div id="copyright" class="iframe-hide-container">
-    流星数据：Peter Jenniskens，可视化：Ian Webster，本地化：天文通
+  <div id="copyright" class="iframe-hide-container" style="color: rgba(255, 255, 255, 0.7);">
+    本地化 by 天文通 闽ICP备19014227号-2
   </div>
 
 

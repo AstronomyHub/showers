@@ -43,7 +43,7 @@
       <span class="description">
         流星雨将在 <span id="meteor-shower-peak">{{showerCloud.peak}}</span> 达到峰值，当地球与<span id="meteor-shower-source-type">{{showerCloud.source_type}}</span> <a target="_blank" href="{{showerCloud.spaceref_url}}" id="meteor-shower-object-name">{{showerCloud.source_name}}</a>留下的尘埃相交。 <a class="iframe-hide-container" href="#faq-modal" rel="modal:open">了解更多>></a>
         <span class="iframe-show-container" style="display:none">
-          <a target="_blank" href="https://www.meteorshowers.org">查看更多流星雨</a>
+          <a target="_blank" href="https://ms.darkmap.cn">查看更多流星雨</a>
         </span>
       </span>
     </span>
@@ -54,7 +54,7 @@
     <span id="iau-summary" style="display:none">
       <h2>IAU Shower #<span id="iau-shower-number"></span><span id="iau-shower-suffix"></span></h2>
       <!--Data from the 2016 <a target="_blank" href="http://cams.seti.org/">NASA CAMS</a> dataset.-->
-      <a target="_blank" href="https://www.meteorshowers.org">查看更多流星雨</a>
+      <a target="_blank" href="https://ms.darkmap.cn">查看更多流星雨</a>
     </span>
 
     <span class="share-buttons">
@@ -106,13 +106,13 @@
       </p>
       <h2>我怎么能看到流星雨？</h2>
       <p>
-       流星雨最好在黑暗和晴朗的夜晚观看。查看光污染可以在 <a href="https://lightpollutionmap.knockdream.com/">这个网站</a>查询.
+       流星雨最好在黑暗和晴朗的夜晚观看。查看光污染可以在 <a href="https://darkmap.cn/">这个网站</a>查询.
       </p>
       <h2>我能使用这个网站吗?</h2>
       <p>
         当然！使用以下代码将交互可视化加到你的网站，你需要知道流星雨的IAU编号，可以在<a href="https://www.ta3.sk/IAUC22DB/MDC2007/Roje/roje_lista.php?corobic_roje=1&sort_roje=0">这里</a>查询.
         <br/><br/>
-        <code>&lt;iframe src=&quot;https://www.meteorshowers.org/view/iau-7&quot; width=&quot;500&quot; height=&quot;500&quot; frameBorder=&quot;0&quot;&gt;&lt;/iframe&gt;</code>
+        <code>&lt;iframe src=&quot;https://ms.darkmap.cn/view/iau-7&quot; width=&quot;500&quot; height=&quot;500&quot; frameBorder=&quot;0&quot;&gt;&lt;/iframe&gt;</code>
         <br/><br/>
         请记住我们的网站!
       </p>
@@ -140,7 +140,7 @@
 
   <div id="ianww" class="iframe-show-container" style="display:none">
     <!--<a id="ianww-link" href="http://www.ianww.com/" target="_blank">Visualization by Ian Webster</a>-->
-    <a id="ianww-link" href="https://www.meteorshowers.org/" target="_blank">MeteorShowers.org</a>
+    <a id="ianww-link" href="https://ms.darkmap.cn/" target="_blank">ms.darkmap.cn</a>
   </div>
 
   <script type="x-shader/x-vertex" id="orbit-vertex-shader">
@@ -323,6 +323,16 @@ mixpanel.init("c5d915a004df96a33c912640ed0e9faf");</script><!-- end Mixpanel -->
   mixpanel.track('meteors', {view: '{{shower}}'});
 	mixpanel.track(document.location.pathname + document.location.hash);
 </script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8a30c5e95352f69d2dc655b7bf22af75";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 <noscript>
 	<p>要使用这个 web 应用程序，你需要启用 Javascript。</p>
 </noscript>

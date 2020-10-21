@@ -220,12 +220,12 @@
 
     var mapped_obj = feature_map[full_name];
     if (!mapped_obj) {
-      alert("Sorry, something went wrong and I can't lock on this object.");
+      alert("对不起，执行错误，无法锁定这个对象。");
       return;
     }
     var orbit_obj = mapped_obj['orbit'];
     if (!orbit_obj) {
-      alert("Sorry, something went wrong and I can't lock on this object.");
+      alert("对不起，执行错误，无法锁定这个对象。");
       return;
     }
     locked_object = orbit_obj;
@@ -262,7 +262,7 @@
 
   me.setupParticlesFromData = function(data) {
     if (!data) {
-      alert('Sorry, something went wrong and the server failed to return data.');
+      alert('对不起，执行错误，服务器无法返回数据。');
       return;
     }
     // add planets
@@ -393,7 +393,7 @@
     var mapped_obj = feature_map[full_name];
     var orbit_obj = mapped_obj.orbit;
     if (!mapped_obj || !orbit_obj) {
-      alert("Sorry, something went wrong and I can't highlight this object.");
+      alert("对不起，执行错误，不能高亮显示这个对象。");
       return;
     }
     var idx = mapped_obj.idx; // this is the object's position in the added_objects array
@@ -457,7 +457,7 @@
   function setupIAUInputHandler() {
     // TODO(ian): Move this out to ui.js.
     $('#btn-iau-input').on('click', function() {
-      var iau_num = prompt('What IAU meteor shower number would you like to view?', last_iau_number);
+      var iau_num = prompt('你想查看的流星雨IAU编号是多少？', last_iau_number);
       if (!iau_num && iau_num !== '0') {
         return;
       }
@@ -512,8 +512,8 @@
       }
       $opt.appendTo($select);
     });
-    $select.append('<option value="View all">Everything at once</option>');
-    $select.append('<option value="none">Choose a shower...</option>');
+    $select.append('<option value="View all">显示全部主要流星雨</option>');
+    $select.append('<option value="none">从上方选择一项...</option>');
 
     $select.on('change', function() {
       var val = $(this).val();
@@ -625,7 +625,7 @@
         });
       }
       if (cb) cb();
-      alert('Sorry, your request for meteor shower data has failed: not an established shower or no data, please try again.');
+      alert('对不起，您的流星雨数据请求失败：没有该流星雨或没有该流星雨的数据，请重试。');
     });
   }
 
@@ -641,7 +641,7 @@
     var cloud_obj = window.METEOR_CLOUD_DATA[key];
     if (!cloud_obj) {
       console.error('Tried to load key', key);
-      alert("Something went wrong - couldn't load data for this meteor shower!");
+      alert("执行出错，无法载入该流星雨的数据！");
       return;
     }
 

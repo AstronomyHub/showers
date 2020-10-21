@@ -505,7 +505,7 @@
 
     shower_names.forEach(function(key) {
       var shower = window.METEOR_CLOUD_DATA[key];
-      var display = key + ' - ' + shower.peak;
+      var display = shower.name + ' - ' + shower.peak;
       var $opt = $('<option>').html(display).attr('value', key)
       if (shower.hideInMenu) {
         $opt.hide();

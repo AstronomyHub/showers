@@ -665,7 +665,7 @@
 
     // Update left bar.
     //populatePictures();
-    if (!window.isMobile && !window.isIframe) {
+    if (!window.isIframe) {
       populateMinimap();
     }
   }

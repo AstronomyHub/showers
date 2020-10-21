@@ -1,5 +1,5 @@
 module.exports = {
-  '英仙座': {
+  'Perseids': {
     name: '英仙座',
     peak: '8月中旬',
     date: '8/12',
@@ -24,7 +24,7 @@ module.exports = {
       Q: 51.22462284058444, // aphelion
     }
   },
-  '狮子座': {
+  'Leonids': {
     name: '狮子座',
     peak: '11月中旬',
     date: '11/18',
@@ -46,7 +46,7 @@ module.exports = {
       p: 12141.56115249823, // period
     }
   },
-  '摩羯座α': {
+  'Alpha Capricornids': {
     name: '摩羯座α',
     peak: '7月下旬',
     date: '7/31',
@@ -67,7 +67,7 @@ module.exports = {
       p: 1535.061194216666, // period
     }
   },
-  '天琴座': {
+  'Lyrids': {
     name: '天琴座',
     peak: '4月',
     date: '4/22',
@@ -96,7 +96,7 @@ module.exports = {
       },
     ]
   },
-  '猎户座': {
+  'Orionids': {
     name: '猎户座',
     peak: '10月下旬',
     date: '10/21',
@@ -118,7 +118,7 @@ module.exports = {
       p: 27509.1290731861, // period
     }
   },
-  '宝瓶座η': {
+  'Eta Aquariids': {
     name: '宝瓶座η',
     peak: '5月上旬',
     date: '5/5',
@@ -140,7 +140,7 @@ module.exports = {
       p: 27509.1290731861, // period
     }
   },
-  '象限仪座': {
+  'Quadrantids': {
     name: '象限仪座',
     peak: '1月上旬',
     date: '1/3',
@@ -164,7 +164,7 @@ module.exports = {
       Q: 5.054905873457415, // aphelion
     }
   },
-  '宝瓶座δ南': {
+  'Southern Delta Aquariids': {
     name: '宝瓶座δ南',
     peak: '7月下旬',
     date: '7/28',
@@ -186,7 +186,7 @@ module.exports = {
       p: 1972.644309786168, // period, in days
     }
   },
-  '金牛座南': {
+  'Southern Taurids': {
     name: '金牛座南',
     peak: '10月',
     date: '10/10',
@@ -207,7 +207,7 @@ module.exports = {
       p: 1204.197975688157, // period, in days
     }
   },
-  '金牛座北': {
+  'Northern Taurids': {
     name: '金牛座北',
     peak: '11月',
     date: '11/12',
@@ -228,7 +228,7 @@ module.exports = {
       p: 1204.197975688157, // period, in days
     }
   },
-  '双子座': {
+  'Geminids': {
     // TODO: fewer particles
     name: '双子座',
     peak: '12月中旬',
@@ -255,7 +255,7 @@ module.exports = {
       p: 523.4854325174181,
     }
   },
-  '小熊座': {
+  'Ursids': {
     name: '小熊座',
     peak: '12月中旬',
     date: '12/21',
@@ -281,7 +281,7 @@ module.exports = {
       p: 4970.441269280825,
     }
   },
-  '天鹅座κ': {
+  'Kappa Cygnids': {
     hideInMenu: true,
     highlight_ecliptic: true,
     show_particle_orbits: true,
@@ -292,7 +292,7 @@ module.exports = {
     date: '8/21',
     orbit_data_path: '/js/data/kcg.json',
   },
-  '波江座ο': {
+  'Omicron Eridanids': {
     hideInMenu: true,
     highlight_ecliptic: true,
     show_particle_orbits: true,

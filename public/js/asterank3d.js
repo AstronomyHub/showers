@@ -331,16 +331,16 @@
 
   function initGUI() {
     var ViewUI = function() {
-      this['Date'] = '12/26/2012';
-      this['Speed'] = opts.jed_delta;
-      this['Show orbits'] = planet_orbits_visible;
-      this['Show Milky Way'] = opts.milky_way_visible;
+      this['日期'] = '12/26/2012';
+      this['模拟速度'] = opts.jed_delta;
+      this['显示轨道'] = planet_orbits_visible;
+      this['显示银河'] = opts.milky_way_visible;
     };
 
     window.onload = function() {
       var text = new ViewUI();
       var gui = new dat.GUI({width: 300});
-      gui.add(text, 'Date').onChange(function(val) {
+      gui.add(text, '日期').onChange(function(val) {
         var newdate = new Date(Date.parse(val));
         if (newdate) {
           var newjed = toJED(newdate);
@@ -350,15 +350,15 @@
           }
         }
       }).listen();
-      gui.add(text, 'Speed', 0, 15).onChange(function(val) {
+      gui.add(text, '模拟速度', 0, 15).onChange(function(val) {
         opts.jed_delta = val;
         var was_moving = object_movement_on;
         object_movement_on = opts.jed_delta > 0;
       });
-      gui.add(text, 'Show orbits').onChange(function() {
+      gui.add(text, '显示轨道').onChange(function() {
         togglePlanetOrbits();
       });
-      gui.add(text, 'Show Milky Way').onChange(function() {
+      gui.add(text, '显示银河').onChange(function() {
         toggleMilkyWay();
       });
       window.datgui = text;

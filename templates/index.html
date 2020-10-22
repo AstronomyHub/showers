@@ -1,7 +1,7 @@
 ﻿<!doctype html>
 <html>
 <head>
-  <title>从太空看流星雨</title>
+  <title>从太空看流星雨丨天文通</title>
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
@@ -105,13 +105,14 @@
       <p>
         可视化由 Ian Webster 开发，本地化由 天文通 完成。
       </p>
+	 <img style="width: 40%" src="img/twt.png">
       <h2>我怎么能看到流星雨？</h2>
       <p>
-       流星雨最好在黑暗和晴朗的夜晚观看。查看光污染可以在 <a href="https://darkmap.cn/">这个网站</a>查询.
+       流星雨最好在黑暗和晴朗的夜晚观看。查看光污染可以在 <a href="https://darkmap.cn/">这个网站</a>查询。
       </p>
       <h2>我能使用这个网站吗?</h2>
       <p>
-        当然！使用以下代码将交互可视化加到你的网站，你需要知道流星雨的IAU编号，可以在<a href="https://www.ta3.sk/IAUC22DB/MDC2007/Roje/roje_lista.php?corobic_roje=1&sort_roje=0">这里</a>查询.
+        当然！使用以下代码将交互可视化加到你的网站，你需要知道流星雨的IAU编号，可以在<a href="https://mp.weixin.qq.com/s/6uljlgA3iA3PZ8OsjA8lrQ">这里</a>查询.
         <br/><br/>
         <code>&lt;iframe src=&quot;https://ms.darkmap.cn/view/iau-7&quot; width=&quot;500&quot; height=&quot;500&quot; frameBorder=&quot;0&quot;&gt;&lt;/iframe&gt;</code>
         <br/><br/>
@@ -323,6 +324,15 @@ mixpanel.init("c5d915a004df96a33c912640ed0e9faf");</script><!-- end Mixpanel -->
 <script>
   mixpanel.track('meteors', {view: '{{shower}}'});
 	mixpanel.track(document.location.pathname + document.location.hash);
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8a30c5e95352f69d2dc655b7bf22af75";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
 </script>
 
 <noscript>

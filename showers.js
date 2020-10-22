@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
   res.render('index', {
     isDev,
     scriptUrls: getScriptUrls(),
-    canonicalUrl: 'https://www.meteorshowers.org/',
+    canonicalUrl: 'https://ms.darkmap.cn/',
 
     // Default to Perseids - Javascript will override to next shower.
     showerCloud: cloudData['Perseids'],
@@ -52,7 +52,7 @@ app.get('/view/:shower', (req, res) => {
     isDev,
     scriptUrls: getScriptUrls(),
 
-    canonicalUrl: `https://www.meteorshowers.org/view/${showerId}`,
+    canonicalUrl: `https://ms.darkmap.cn/view/${showerId}`,
 
     showerCloud: cloudData[showerId.replace('-', ' ')],
     cloudDataJson: JSON.stringify(cloudData),

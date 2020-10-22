@@ -602,11 +602,11 @@
 
   function loadNewIAUSelection(iau_num, cb) {
     last_iau_number = iau_num;
-    loadOrbitsData('/js/data/' + getCamsSplitUrlSegment() + '/iau_' + iau_num + '.json', cb);
+    loadOrbitsData('https://showers.oss-cn-beijing.aliyuncs.com/js/data/' + getCamsSplitUrlSegment() + '/iau_' + iau_num + '.json', cb);
   }
 
   function getIAUOrbitsJson(iau_num, cb) {
-    $.getJSON('/js/data/' + getCamsSplitUrlSegment() + '/iau_' + iau_num + '.json', cb);
+    $.getJSON('https://showers.oss-cn-beijing.aliyuncs.com/js/data/' + getCamsSplitUrlSegment() + '/iau_' + iau_num + '.json', cb);
   }
 
   function loadOrbitsData(url, cb) {
@@ -1134,7 +1134,7 @@
     var geometry = new THREE.SphereGeometry(2800, 60, 40);
     var uniforms = {
       texture: {
-        type: 't', value: loadTexture(opts.static_prefix + 'img/eso_dark.jpg')
+        type: 't', value: loadTexture('https://showers.oss-cn-beijing.aliyuncs.com/img/eso_dark.jpg')
       }
     };
 

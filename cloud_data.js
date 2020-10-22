@@ -290,7 +290,7 @@ module.exports = {
     name: '天鹅座κ',
     peak: '8月中旬',
     date: '8/21',
-    orbit_data_path: '/js/data/kcg.json',
+    orbit_data_path: 'https://showers.oss-cn-beijing.aliyuncs.com/js/data/kcg.json',
   },
   'Omicron Eridanids': {
     hideInMenu: true,
@@ -301,6 +301,6 @@ module.exports = {
     name: '波江座ο',
     peak: '11月中旬',
     date: '11/22',
-    orbit_data_path: '/js/data/oer.json',
+    orbit_data_path: 'https://showers.oss-cn-beijing.aliyuncs.com/js/data/oer.json',
   },
 };

@@ -7,6 +7,10 @@ function MeteorsUi(visualization) {
         $('#sky-map img').on('click', function () {
             $('#skymap-modal').css("display","flex");
             $('#skymap-modal img').attr('src', $('#sky-map img').attr('src'))
+            if (!window.isMobile) {
+                $('#skymap-modal img').css({'width': 'auto'})
+            }
+
         });
 
         $('#skymap-modal img').on('click', function () {

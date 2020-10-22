@@ -1,7 +1,7 @@
 function navigateTo(view) {
   var page = '/view/' + view.replace(/ /g, '-');
   history.replaceState({view: view},
-                       'Meteor showers from space - ' + view,
+                       '从太空看流星雨 - ' + view,
                        page);
 
   if (typeof mixpanel !== 'undefined') {

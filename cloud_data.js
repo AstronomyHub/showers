@@ -68,7 +68,7 @@ module.exports = {
     }
   },
   'Lyrids': {
-    name: '天琴座',
+    name: '四月天琴座',
     peak: '4月',
     date: '4/22',
     map: 'lyrids_north.jpg',

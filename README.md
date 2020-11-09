@@ -33,6 +33,9 @@ Copyright 2017 Ian Webster - MIT License
 # 天文通服务器更新方式
 
 cd /opt/webapps/
+
 cd showers/
+
 git pull
+
 forever restartall

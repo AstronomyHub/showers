@@ -29,3 +29,10 @@ Add this file to git and update the bundle in index.html.
 # 版权
 
 Copyright 2017 Ian Webster - MIT License
+
+# 天文通服务器更新方式
+
+cd /opt/webapps/
+cd showers/
+git pull
+forever restartall
